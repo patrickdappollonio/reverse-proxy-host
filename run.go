@@ -48,6 +48,7 @@ func proxy(stdout, stderr io.Writer, hostname string, destinationPort, listenPor
 		},
 	}
 
+	log.Printf("Starting reverse proxy to \"%s:%d\", listening for requests on port %d", loopback, destinationPort, listenPort)
 	if err := http.ListenAndServe(generateHostPort(loopback, listenPort), proxy); err != nil {
 		return err
 	}
