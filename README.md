@@ -1,5 +1,7 @@
 # `reverse-proxy-host`
 
+[![Github Downloads](https://img.shields.io/github/downloads/patrickdappollonio/reverse-proxy-host/total?color=orange&label=github%20downloads)](https://github.com/patrickdappollonio/reverse-proxy-host/releases)
+
 A tiny Go application that allows you to send, locally, a request using a custom hostname. It's useful if you don't want to be fiddling with `/etc/hosts` records.
 
 ## Example use case
